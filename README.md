@@ -21,25 +21,25 @@ Run lightweight, heavily customizable particle simulations in your Nuxt project 
 
 ## Quick Setup
 
-1. Add the `nuxt-particles` dependency to your project
+1. Add the `@sai69/nuxt-particles` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D nuxt-particles
+pnpm add -D @sai69/nuxt-particles
 
 # Using yarn
-yarn add --dev nuxt-particles
+yarn add --dev @sai69/nuxt-particles
 
 # Using npm
-npm install --save-dev nuxt-particles
+npm install --save-dev @sai69/nuxt-particles
 ```
 
-2. Add `nuxt-particles` to the `modules` section of `nuxt.config.ts`
+2. Add `@sai69/nuxt-particles` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    'nuxt-particles'
+    '@sai69/nuxt-particles'
   ]
 })
 ```
