@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-particles",
+  "name": "@vichetseyla/nuxt-particles",
   "version": "0.3.0",
   "description": "Run lightweight, heavily customizable particle simulations in your Nuxt project with tsParticles.",
   "repository": "Joepocalyptic/nuxt-particles",
@@ -11,6 +11,9 @@
       "import": "./dist/module.mjs",
       "require": "./dist/module.cjs"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "nuxt",
